@@ -8,14 +8,19 @@ a simple Python script which organizes raw image files imported from a DSLR came
 
 # Implementation
 For 1: 
+
 a. check if the directory exists, or create it
 
 For 2:
+
 a. move all raw files
 
 For 3:
+
 a. make a list of filenames of the raw files
+
 b. remove all entries which have the same file name of the jpeg files.
+
 c. delete the raw files left in the list from the disk
 
 
