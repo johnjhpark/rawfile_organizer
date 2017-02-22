@@ -5,7 +5,7 @@ created by John (johnjhparkprof@gmail.com) on Nov. 26 2016
 
 usage:
     $cp rawfile_organizer.py /path/to/images/imported/from/your/dslr
-    $python python rawfile_organizer.py
+    $python rawfile_organizer.py
 """
 
 # NOTICE: imported the top objects only for training purpose
