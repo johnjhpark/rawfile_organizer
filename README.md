@@ -1,5 +1,5 @@
 # Rawfile Organizer
-This simple Python script organizes raw image files imported from a DSLR camera which saves both a compressed and a raw image files. (JPEG and CR2 format as default, respectively)
+This simple Python script organizes raw image files imported from a DSLR camera which saves both compressed and raw image files. (JPEG and CR2 format as default, respectively. However, you can simply change the formats by modifying only one line of codes)
 
 # Key operations of this script
 0. relocate all raw files to a separted directory, named rawfiles/
