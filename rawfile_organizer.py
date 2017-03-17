@@ -5,7 +5,7 @@ created by John (johnjhparkprof@gmail.com) on Nov. 26 2016
 
 usage:
     $cp rawfile_organizer.py /path/to/images/imported/from/your/dslr
-    $python rawfile_organizer.py
+    $python python rawfile_organizer.py
 """
 
 # NOTICE: imported the top objects only for training purpose
@@ -54,4 +54,7 @@ for jpegfile in jpegfilelist:
         rawfilelist.remove(thefile)
 
 for leftover in rawfilelist:
+    # FIXED: ignore the directories under rawfile_path
+    if os.path.isdir(leftover):
+        continue
     os.remove(leftover)
