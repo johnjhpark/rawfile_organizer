@@ -16,7 +16,12 @@ import errno
 
 # Step 1: check the directory exists, or create it
 # TODO: support cross-platform (esp. Windows)
-rawfile_path = './rawfiles'
+
+
+# Warning: current folder name format should be 'date_title'
+split_character = '_'
+date_of_shots = os.path.basename(os.getcwd()).split(split_character)[0]
+rawfile_path = './'+date_of_shots+'_'+'rawfiles'
 rawfile_extention = '.CR2'
 jpegfile_extention = '.JPG'
 filelist = os.listdir('.');
